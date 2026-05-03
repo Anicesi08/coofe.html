@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Café Aroma - Cadastrar Produto</title>
+</head>
+<body bgcolor="#F5F5DC"> <center>
+        <header>
+            <br>
+            <h1> Cadastrar Novo Produto ☕</h1>
+        </header>
+
+        <main>
+            <form action="principal.html">
+                <label>Nome do Produto 🏷️:</label><br>
+                <input type="text" name="nome_prod" placeholder="Ex: Café Arábica" required><br><br>
+
+                <label>Descrição Detalhada 📝:</label><br>
+                <textarea name="desc_prod" rows="4" cols="30"></textarea><br><br>
+
+                <label>Unidade de Medida ⚖️:</label><br>
+                <select name="unidade">
+                    <option value="kg">Quilo (kg)</option>
+                    <option value="g">Grama (g)</option>
+                    <option value="un">Unidade (un)</option>
+                </select><br><br>
+
+                <label>Quantidade em Estoque :</label><br>
+                <input type="number" name="qtd" min="0"><br><br>
+
+                <label>Valor de Venda (R$) 💰:</label><br>
+                <input type="text" name="valor" placeholder="0,00"><br><br>
+
+                <button type="submit">✅ Cadastrar Produto</button>
+            </form>
+            <br>
+            <a href="principal.html">❌ Cancelar e Voltar</a>
+        </main>
+    </center>
+</body>
+</html>
